@@ -1,0 +1,8 @@
+1. A short explanation of why the movie ID should come from the URL instead of the request body
+-> The movieID should come from the URL because the URL helps to identify the specific resource we want to update.
+The request body contains the new data for the movie we want to update.
+
+2. Why should PUT not increase the number of records?
+The HTTP method PUT is used to update an existing record , not to create a new one.
+When a client sends a PUT request, this should only update its content and not increase the count of the records. 
+
